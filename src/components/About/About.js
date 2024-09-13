@@ -4,10 +4,13 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 
 function About() {
+
+  const leftAlignStyle = { textAlign: "left" , marginLeft: "300px"};
+
   return (
     <Container fluid className="about-section">
-      <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+      <Container style={leftAlignStyle}>
+        <Row style={{ padding: "10px" }}>
           <Col
             md={7}
             style={{
