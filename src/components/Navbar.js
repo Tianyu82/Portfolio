@@ -58,11 +58,11 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/project"
+                href="https://master.d27ibldcg4r3os.amplifyapp.com"
+                target="_blank"
                 onClick={() => updateExpanded(false)}
               >
-                Projects
+                Blogs
               </Nav.Link>
             </Nav.Item>
 

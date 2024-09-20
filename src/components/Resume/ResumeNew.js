@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 function ResumeNew() {
-  const leftAlignStyle = { textAlign: "left" , marginLeft: "1000px"};
+  const leftAlignStyle = { textAlign: "left" , marginLeft: "700px"};
 
   return (
     <div>
@@ -29,7 +29,7 @@ function ResumeNew() {
               <ul>
                 <li><strong>Languages:</strong> C/C++, Java, JavaScript, Python, SQL, HTML5, CSS3</li>
                 <li><strong>Frameworks and Libraries:</strong> React, Node.js, Spring Boot, Pandas, Numpy</li>
-                <li><strong>Tools:</strong> Git, Linux, Postman, Wireshark, Selenium, AWS (Amplify, EC2, Lambda, DynamoDB), Docker, K8s, Slurm</li>
+                <li><strong>Tools:</strong> Jira, Confluence, Git, Linux, Postman, Wireshark, Selenium, AWS (Amplify, EC2, Lambda, DynamoDB)</li>
               </ul>
               <br></br>
 
