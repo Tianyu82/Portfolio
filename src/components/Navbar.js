@@ -58,6 +58,16 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
+                as={Link}
+                to="/certificates"
+                onClick={() => updateExpanded(false)}
+              >
+              Certificates
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
                 href="https://master.d27ibldcg4r3os.amplifyapp.com"
                 target="_blank"
                 onClick={() => updateExpanded(false)}

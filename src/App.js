@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Blogs from "./components/Blogs/Blogs";
-import Ood from "./components/Blogs/Ood";
+import Certificate from "./components/Certificate/Certificate";
 import Resume from "./components/Resume/ResumeNew";
 import {
   BrowserRouter as Router,
@@ -34,6 +34,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/certificates" element={<Certificate />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />

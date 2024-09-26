@@ -10,17 +10,17 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> Tianyu Zhou</strong>
+                Hey! I'M
+                <strong className="main-name"> Tianyu </strong>
               </h1>
-              <h1><strong style={{ color: 'black' }}>Welcome to my Homepage</strong></h1>
+              <p><strong style={{ color: 'black', fontSize: '2em' }}>I am a new graduate in Computer Science. My dream is to build impactful software that thousands of people maybe more can directly benefit from it : &#41; </strong></p>
             </Col>
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                className="img-fluid image-hover"
+                style={{ maxHeight: "600px" }}
               />
             </Col>
           </Row>

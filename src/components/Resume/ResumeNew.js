@@ -10,11 +10,11 @@ function ResumeNew() {
         <Row className="justify-content-center">
           <div style={leftAlignStyle}>
             <Col md={8}>
-              <h1>Tianyu Zhou</h1>
-              <p>Phone: 778-891-3692 | Email: feelingzty@gmail.com</p>
+              <h1 style={{color:"black", fontWeight: "bold"}}>Tianyu Zhou</h1>
+              <p style={{ whiteSpace: "pre" }}>Phone: 778-891-3692  |  Email: feelingzty@gmail.com  |  Linkedin: https://www.linkedin.com/in/tianyu-zhou-1401a293</p>
               <br></br>
 
-              <h3 className="left-align">Education</h3>
+              <h3 className="left-align" style={{color:"black", fontWeight: "bold"}}>Education</h3>
               <p>
                 <strong>Simon Fraser University</strong> — B.Sc. in Computing Science, 3.80 GPA
                 <br /> Sep. 2020 - Aug. 2024
@@ -25,7 +25,7 @@ function ResumeNew() {
               </p>
               <br></br>
 
-              <h3 className="left-align">Technical Skills</h3>
+              <h3 className="left-align" style={{color:"black", fontWeight: "bold"}}>Technical Skills</h3>
               <ul>
                 <li><strong>Languages:</strong> C/C++, Java, JavaScript, Python, SQL, HTML5, CSS3</li>
                 <li><strong>Frameworks and Libraries:</strong> React, Node.js, Spring Boot, Pandas, Numpy</li>
@@ -33,34 +33,42 @@ function ResumeNew() {
               </ul>
               <br></br>
 
-              <h3 className="left-align">Experience</h3>
+              <h3 className="left-align" style={{color:"black", fontWeight: "bold"}}>Experience</h3>
 
               <h4 className="left-align">Test Automation Engineer (co-op)</h4>
               <p>Vecima Networks, Burnaby, BC — Jan 2023 - Dec 2023</p>
               <ul>
-                <li>Created tests in a team of 4, recognized for great performance with an extended internship invitation.</li>
-                <li>Initiated an automation testing project using Sahi Pro, ensuring milestones aligned with goals.</li>
-                <li>Transformed frequent device replacement tests from manual to automated, reducing testing time by 90%.</li>
+                <li>Conducted QA in a team of three, recognized for great performance with an extended internship invitation.</li>
+                <li>Initiated an automation testing project for the company’s new platform using the JavaScript-based tool Sahi Pro. Set milestones for each phase to make sure the project always aligns with the goals.</li>
+                <li>Actively engaged with the development team to gather feedback, and iteratively refined test scripts based on their suggestions to make sure the project met the established benchmarks.</li>
+                <li>Transformed frequent device replacement tests from manual to automated, reducing 90% of testing time.</li>
+                <li>Effectively distributed test flows logically to multiple threads to improve the concurrency of test execution.</li>
                 <li>Applied Postman to API testing, uncovering hidden issues in APIs.</li>
               </ul>
+              <br></br>
 
               <h4 className="left-align">Software Test Engineer (co-op)</h4>
               <p>Gatekeeper Systems, Abbotsford, BC — Jan 2022 - Aug 2022</p>
               <ul>
-                <li>Collaborated in regression testing, catching more than 50% of bugs in the release.</li>
-                <li>Used Wireshark to analyze packets, discovering and resolving a long-standing major bug.</li>
-                <li>Drafted automation test scripts using Selenium, achieving 100% feature coverage by the end of my internship.</li>
+                <li>Conducted static testing on product specifications, proactively identifying and clarifying ambiguities</li>
+                <li>Analyzed product specifications to develop comprehensive test plans, including clear objectives, appropriate testing techniques, and detailed test cases</li>
+                <li>Collaborated with a 3-person team to conduct regression testing on firmware, web, and mobile applications, identifying over 50% of the bugs in the release, and ensuring comprehensive cross-platform verification</li>
+                <li>Logged detailed bug tickets in compliance with company documentation standards, and worked closely with developers and business stakeholders to resolve issues and meet product acceptance criteria</li>
+                <li>Conducted bug confirmation testing and user acceptance testing to ensure that bugs were fixed before release</li>
+                <li>Introduced Wireshark from school to the work projects, to analyze the packets between the server and the connected devices, resulting in the discovery and resolution of one long-lasting major bug</li>
               </ul>
+              <br></br>
 
               <h4 className="left-align">CNC Programmer and CAD Drafter</h4>
               <p>Swiftsure Milling and Molding, Surrey, BC — Mar 2017 - Aug 2020</p>
               <ul>
-                <li>Programmed a 3-axis CNC router using Mastercam to process wood materials to precise dimensions.</li>
-                <li>Developed macros in VBA to automate project management worksheets in Excel.</li>
+                <li>Drafted and finalized customer drawings using AutoCAD, and programmed a CNC router using Mastercam</li>
+                <li>Conducted quality control on multiple production lines to detect defects in wood products</li>
+                <li>Automated the calculation of sales and production metrics using VBA macros in Excel</li>
               </ul>
               <br></br>
 
-              <h3 className="left-align">Projects</h3>
+              <h3 className="left-align" style={{color:"black", fontWeight: "bold"}}>Projects</h3>
 
               <h4 className="left-align">Full Stack App Deployment on AWS</h4>
               <p>Simon Fraser University, Burnaby, BC — Jan 2024 - Apr 2024</p>

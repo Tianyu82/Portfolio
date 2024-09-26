@@ -1,14 +1,14 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(100, 97, 97, 0.582),
-    rgba(208, 209, 131, 0.904)
+    #dab170,
+    #19547b
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(100, 97, 97, 0.582),
-    rgba(208, 209, 131, 0.904)
+    #dab170,
+    #19547b
   );
 
   --imp-text-color: #c770f0;
@@ -609,6 +609,7 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+  overflow: auto; /* Ensure overflow is handled correctly */
 }
 
 .resume {
@@ -623,6 +624,35 @@ button:focus {
 
 .resume-right {
   padding-left: 80px !important;
+}
+
+.certificate-section {
+  position: relative !important;
+  min-height: 100vh;
+  padding-top: 110px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+.certificate-heading{
+  font-size: 2em;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.certificate-links {
+  text-align: left;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.certificate-description{
+  text-align: left;
+  font-size: 1em;
+  font-weight: 300;
+  margin-left: 30px;
 }
 
 @media (max-width: 767px) {
@@ -761,4 +791,22 @@ button:focus {
 
 .blogList a:hover {
   color: rgb(255, 255, 255); /* Optional: Change link color on hover */
+}
+
+.image-hover {
+  transition: transform 0.3s ease; /* Smooth transition for the transform property */
+}
+
+.image-hover:hover {
+  transform: scale(1.1); /* Scale the image to 110% on hover */
+}
+
+li a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Change link color to black */
+}
+
+/* Optional: Change color on hover */
+li a:hover {
+  color: darkgray; /* Change color on hover (optional) */
 }
