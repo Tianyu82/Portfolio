@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 function ResumeNew() {
-  const leftAlignStyle = { textAlign: "left" , marginLeft: "700px"};
+  const leftAlignStyle = { textAlign: "left" , marginLeft: "500px"};
 
   return (
     <div>

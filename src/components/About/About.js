@@ -5,7 +5,7 @@ import laptopImg from "../../Assets/about.png";
 
 function About() {
 
-  const leftAlignStyle = { textAlign: "left" , marginLeft: "300px"};
+  const leftAlignStyle = { textAlign: "left" , marginLeft: "185px"};
 
   return (
     <Container fluid className="about-section">
