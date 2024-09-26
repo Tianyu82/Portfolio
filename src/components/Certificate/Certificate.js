@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import certificateImage from "../../Assets/certificate.jpg";
 
 function Certificate() {
     return (
@@ -9,7 +10,7 @@ function Certificate() {
             <div style={{ marginLeft: "50px" }}>
                 <ul className="certificate-links">
                     <li>
-                        <a href="https://atsqa.org/certified-testers/profile/5173a8c721db4d9d88bc760d873e3041" target="_blank"> ISTQB (CTFL) </a>
+                    <a href={certificateImage} target="_blank" rel="noopener noreferrer"> ISTQB Certification (Click to View) </a>
                     </li>
                 </ul>
                 <div className="certificate-description">
