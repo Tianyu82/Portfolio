@@ -1,14 +1,14 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    #dab170,
-    #19547b
+    #DEE4EA,
+    #F9FCFF
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    #dab170,
-    #19547b
+    #DEE4EA,
+    #F9FCFF
   );
 
   --imp-text-color: #c770f0;
@@ -76,7 +76,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #8a89a0a9 !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -160,7 +160,7 @@ button:focus {
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  color: rgb(10, 10, 10) !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -257,7 +257,7 @@ button:focus {
 
 
 .home-section {
-  background: linear-gradient(to bottom, rgba(100, 97, 97, 0.582), rgba(208, 209, 131, 0.904));
+  background: linear-gradient(to bottom, #DEE4EA, #F9FCFF);
   min-height: 100vh;
   display: flex;
   justify-content: left;
@@ -267,7 +267,7 @@ button:focus {
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: whitesmoke;
+  color: rgb(7, 7, 7);
   text-align: left;
 }
 
@@ -548,7 +548,7 @@ button:focus {
   padding-top: 110px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: white !important;
+  color: rgb(10, 10, 10) !important;
 }
 
 
@@ -585,7 +585,7 @@ button:focus {
 
 .quote-card-view {
   border: none !important;
-  color: white !important;
+  color: rgb(7, 7, 7) !important;
   background-color: transparent !important;
 }
 
@@ -609,7 +609,7 @@ button:focus {
   padding-top: 110px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
   overflow: auto; /* Ensure overflow is handled correctly */
 }
 
@@ -633,7 +633,7 @@ button:focus {
   padding-top: 110px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .certificate-heading{
