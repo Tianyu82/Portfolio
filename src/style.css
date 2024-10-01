@@ -62,13 +62,13 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(95, 88, 100, 0.959);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: rgba(99, 96, 99, 0.911);
   border-radius: 12px;
 }
 
@@ -76,7 +76,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #8a89a0a9 !important;
+  background-color: #c1c1cea9 !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -87,6 +87,7 @@ button:focus {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
+  
 }
 
 .navbar-toggler {
@@ -194,7 +195,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #fefefe;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -269,6 +270,7 @@ button:focus {
   padding: 9rem 0 2rem !important;
   color: rgb(7, 7, 7);
   text-align: left;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .heading {
@@ -549,6 +551,7 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: rgb(10, 10, 10) !important;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -610,7 +613,8 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: rgb(0, 0, 0) !important;
-  overflow: auto; /* Ensure overflow is handled correctly */
+  overflow: auto;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .resume {
@@ -634,6 +638,7 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: rgb(0, 0, 0) !important;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .certificate-heading{

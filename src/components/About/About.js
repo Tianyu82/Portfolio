@@ -12,11 +12,11 @@ function About() {
       <Container style={leftAlignStyle}>
         <Row style={{ padding: "10px" }}>
           <Col
-            md={7}
+            md={6}
             style={{
-              justifyContent: "center",
               paddingTop: "30px",
               paddingBottom: "50px",
+              marginRight: '100px' 
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
@@ -26,10 +26,10 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "50px", paddingBottom: "50px" }}
+            style={{paddingBottom: "20px" }}
             className="about-img"
           >
-            <img src={myImg} alt="about" className="img-fluid" />
+            <img src={myImg} alt="about" style={{ maxHeight: "800px" }} />
           </Col>
         </Row>
       </Container>

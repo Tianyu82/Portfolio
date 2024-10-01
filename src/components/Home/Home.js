@@ -13,14 +13,16 @@ function Home() {
                 Hey! I'M
                 <strong className="main-name"> Tianyu </strong>
               </h1>
-              <p><strong style={{ color: 'black', fontSize: '2em' }}>I am a new graduate in Computer Science. My dream is to build impactful software that thousands of people maybe more can directly benefit from it : &#41; </strong></p>
+              <br></br>
+              <p><strong style={{ color: 'black', fontSize: '2em' }}>I am a recent graduate in Computer Science, ready to take on new challenges. </strong></p>
+              <p><strong style={{ color: 'black', fontSize: '2em' }}>My dream is to build impactful software that thousands of people maybe more can directly benefit from it : &#41; </strong></p>
             </Col>
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid image-hover"
-                style={{ maxHeight: "600px" }}
+                style={{ maxHeight: "1000px" }}
               />
             </Col>
           </Row>

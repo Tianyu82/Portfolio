@@ -5,7 +5,7 @@ function AboutCard() {
   return (
     <Card className="quote-card-view">
       <p>
-        Hello! I’m Tianyu Zhou, a passionate and dedicated software engineer with good understand of software development life cycle. 
+        Hello! I’m Tianyu Zhou, a passionate and dedicated software engineer with good understand of software development life cycle and techniques. 
         With hands-on experience in using modern frameworks like React and Node.js, I specialize in building efficient and user-friendly applications. 
       </p>
 
