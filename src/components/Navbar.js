@@ -9,11 +9,10 @@ function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
   const [weather, setWeather] = useState(null);
-  const location = "Vancouver"; // Fixed location
+  const location = "Vancouver";
   const [date, setDate] = useState("");
 
   useEffect(() => {
-    // Fetch weather data
     const fetchWeather = async () => {
       const apiKey = "7a8f987971c0e98536aade52c1b7af60";
       const response = await fetch(
@@ -21,7 +20,7 @@ function NavBar() {
       );
       if (response.ok) {
         const data = await response.json();
-        setWeather(data.main.temp); // Get temperature
+        setWeather(data.main.temp.toFixed(1));
       } else {
         console.error("Failed to fetch weather data");
       }
@@ -30,7 +29,17 @@ function NavBar() {
     fetchWeather();
 
     // Set the current date
-    const currentDate = new Date().toLocaleDateString();
+    const formatDate = () => {
+      const date = new Date();
+      const day = String(date.getDate()).padStart(2, '0'); // Get the day and pad with leading 0 if necessary
+      const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+      const month = months[date.getMonth()]; // Get month abbreviation
+      const year = date.getFullYear(); // Get full year
+  
+      return `${day}/${month}/${year}`; // Format the date as dd/MMM/YYYY
+    };
+
+    const currentDate = formatDate();
     setDate(currentDate);
 
     // Event listener for scroll

@@ -5,12 +5,9 @@ import myImg from "../../Assets/about.png";
 
 function About() {
 
-  const leftAlignStyle = { textAlign: "left" , marginLeft: "185px"};
-
   return (
     <Container fluid className="about-section">
-      <Container style={leftAlignStyle}>
-        <Row style={{ padding: "10px" }}>
+        <Row style={{ textAlign: "left", padding: "10px" }}>
           <Col
             md={6}
             style={{
@@ -32,7 +29,6 @@ function About() {
             <img src={myImg} alt="about" style={{ maxHeight: "800px" }} />
           </Col>
         </Row>
-      </Container>
     </Container>
   );
 }
