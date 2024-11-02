@@ -8,33 +8,31 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Row className="justify-content-center">
-          <div style={leftAlignStyle}>
-            <Col md={8}>
-              <h1 style={{color:"black", fontWeight: "bold"}}>Tianyu Zhou</h1>
-              <p style={{ whiteSpace: "pre" }}>Phone: 778-891-3692  |  Email: feelingzty@gmail.com  |  Linkedin: https://www.linkedin.com/in/tianyu-zhou-1401a293</p>
-              <br></br>
+          <Col md={8} sm={12} style={{ textAlign: "left", padding: "20px" }}>
+            <h1 style={{color:"black", fontWeight: "bold"}}>Tianyu Zhou</h1>
+            <p style={{ whiteSpace: "pre-wrap" }}>Phone: 778-891-3692  |  Email: feelingzty@gmail.com  |  Linkedin: https://www.linkedin.com/in/tianyu-zhou-1401a293</p>
+            <br />
 
-              <h3 className="left-align" style={{color:"black", fontWeight: "bold"}}>Education</h3>
-              <p>
-                <strong>Simon Fraser University</strong> — B.Sc. in Computing Science, 3.80 GPA
-                <br /> Sep. 2020 - Aug. 2024
-              </p>
-              <p>
-                <strong>University of British Columbia</strong> — B.Sc. in Wood Science, 3.75 GPA
-                <br /> Sep. 2013 - Jun. 2016
-              </p>
-              <br></br>
+            <h3 style={{color:"black", fontWeight: "bold"}}>Education</h3>
+            <p>
+              <strong>Simon Fraser University</strong> — B.Sc. in Computing Science, 3.80 GPA
+              <br /> Sep. 2020 - Aug. 2024
+            </p>
+            <p>
+              <strong>University of British Columbia</strong> — B.Sc. in Wood Science, 3.75 GPA
+              <br /> Sep. 2013 - Jun. 2016
+            </p>
+            <br />
 
-              <h3 className="left-align" style={{color:"black", fontWeight: "bold"}}>Technical Skills</h3>
-              <ul>
-                <li><strong>Languages:</strong> C/C++, Java, JavaScript, Python, SQL, HTML5, CSS3</li>
-                <li><strong>Frameworks and Libraries:</strong> React, Node.js, Spring Boot, Pandas, Numpy</li>
-                <li><strong>Tools:</strong> Jira, Confluence, Git, Linux, Postman, Wireshark, Selenium, AWS (Amplify, EC2, Lambda, DynamoDB)</li>
-              </ul>
-              <br></br>
+            <h3 style={{color:"black", fontWeight: "bold"}}>Technical Skills</h3>
+            <ul>
+              <li><strong>Languages:</strong> C/C++, Java, JavaScript, Python, SQL, HTML5, CSS3</li>
+              <li><strong>Frameworks and Libraries:</strong> React, Node.js, Spring Boot, Pandas, Numpy, Selenium Webdriver, Cypress</li>
+              <li><strong>Tools:</strong> Jira, Confluence, Git, Linux, Postman, Wireshark, AWS (Amplify, EC2, Lambda, DynamoDB)</li>
+            </ul>
+            <br />
 
-              <h3 className="left-align" style={{color:"black", fontWeight: "bold"}}>Experience</h3>
-
+            <h3 style={{color:"black", fontWeight: "bold"}}>Experience</h3>
               <h4 className="left-align">Test Automation Engineer (co-op)</h4>
               <p>Vecima Networks, Burnaby, BC — Jan 2023 - Dec 2023</p>
               <ul>
@@ -79,7 +77,6 @@ function ResumeNew() {
                 <li>Deployed the application using AWS Lambda and microservices architecture to improve scalability.</li>
               </ul>
             </Col>
-          </div>
         </Row>
       </Container>
     </div>

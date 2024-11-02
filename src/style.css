@@ -600,11 +600,20 @@ button:focus {
   padding-left: 1px !important;
 }
 
+/* Add responsive image class */
+.responsive-img {
+  width: 100%;   /* Make the image width responsive to the column width */
+  height: auto;  /* Maintain aspect ratio */
+  max-width: 800px; /* Max width can be adjusted based on design needs */
+  max-height: 800px; /* Max height to prevent overly large displays on large screens */
+}
+
 @media (max-width: 767px) {
-  .about-img {
-    padding-top: 0 !important;
+  .about-section Col {
+    margin-right: 0;  /* Remove margin on smaller screens */
   }
 }
+
 /* --------- */
 /* Resume */
 /* --------- */
