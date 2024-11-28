@@ -5,7 +5,7 @@ import certificateImageISTQB from "../../Assets/ISTQB.jpg";
 import certificateImageSelenium from "../../Assets/CSETF.jpg";
 // import schoolTranscript from "../../Assets/SFU.pdf";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
 function Certificate() {
     
