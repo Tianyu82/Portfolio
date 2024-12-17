@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 import { Document, Page, pdfjs  } from 'react-pdf';
 import certificateImageISTQB from "../../Assets/ISTQB.jpg";
 import certificateImageSelenium from "../../Assets/CSETF.jpg";
-// import schoolTranscript from "../../Assets/SFU.pdf";
+import schoolTranscript from "../../Assets/SFU.pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
@@ -45,11 +45,14 @@ function Certificate() {
                     <p> The A4Q Certified Selenium 4 Tester Foundation certification connects relevant test automation theory with practical application for the effective use of Selenium in creating automated tests for web applications. </p>
                     <p> It is aimed at test professionals, test automation engineers, and developers who desire an understanding of how to design, implement, and maintain automated solutions using Selenium.</p>
                 </div>
-                <div>
-                    <nav>
-                        <button onClick={goToPrevPage}>Prev</button>
-                        <button onClick={goToNextPage}>Next</button>
-                    </nav>
+                <ul className="certificate-links">
+                    <li>
+                    <a href={schoolTranscript} target="_blank" rel="noopener noreferrer">School Transcript (Click to View)</a>
+                    </li>
+                </ul>
+                
+                {/* <div>
+                    
 
                     <div style={{ width: 600 }}>
                     <Document
@@ -67,8 +70,8 @@ function Certificate() {
                         Page {pageNumber} of {numPages}
                     </p>
                 </div>
+            // </div> */}
             </div>
-            
             </Container>
         </div>
     );
